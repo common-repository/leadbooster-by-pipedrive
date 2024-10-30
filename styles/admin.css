@@ -1,0 +1,65 @@
+.settings_page_pipedrive .wrap form #status {
+  margin: 10px auto;
+  border: 3px #000 solid;
+  color: #000;
+  padding: 10px;
+  text-align: center; }
+  .settings_page_pipedrive .wrap form #status.disabled {
+    border-color: #f00;
+    background-color: #fdd; }
+  .settings_page_pipedrive .wrap form #status.enabled {
+    border-color: #0f0;
+    background-color: #dfd; }
+.settings_page_pipedrive .wrap form #oauth_button,
+.settings_page_pipedrive .wrap form #oauth_button a,
+.settings_page_pipedrive .wrap form #oauth_button img {
+  outline: none !important;
+  -webkit-box-shadow: unset !important;
+          box-shadow: unset !important; }
+.settings_page_pipedrive .wrap form #auth-oauth #oauth_button img {
+  width: 206px; }
+.settings_page_pipedrive .wrap form .form-table tr th {
+  width: 15%;
+  width: 15em;
+  vertical-align: middle; }
+  .settings_page_pipedrive .wrap form .form-table tr th.valign-top {
+    vertical-align: top; }
+.settings_page_pipedrive .wrap #single-pages-section .pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .settings_page_pipedrive .wrap #single-pages-section .pages #filter-pages-button-all {
+    margin-left: 1em; }
+.settings_page_pipedrive .wrap #single-pages-section table {
+  width: 100%; }
+  .settings_page_pipedrive .wrap #single-pages-section table tr td.page-title {
+    text-align: left;
+    padding: 20px 10px 20px 0;
+    width: 15%;
+    width: 15em; }
+    .settings_page_pipedrive .wrap #single-pages-section table tr td.page-title .page-lang {
+      color: #999; }
+  .settings_page_pipedrive .wrap #single-pages-section table thead th {
+    text-align: left;
+    padding: 0 !important; }
+    .settings_page_pipedrive .wrap #single-pages-section table thead th input {
+      width: 25em !important;
+      max-width: 100%; }
+  .settings_page_pipedrive .wrap #single-pages-section table .pag {
+    margin: 0 -2px; }
+    .settings_page_pipedrive .wrap #single-pages-section table .pag a {
+      margin: 0 2px;
+      display: inline-block;
+      padding: 3px 10px;
+      text-decoration: none;
+      background-color: #0073aa;
+      color: #fff;
+      border-radius: 5px; }
+      .settings_page_pipedrive .wrap #single-pages-section table .pag a .active, .settings_page_pipedrive .wrap #single-pages-section table .pag a:hover {
+        background-color: #0096dd; }
+
+/*# sourceMappingURL=admin.css.map */

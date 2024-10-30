@@ -1,0 +1,110 @@
+$link-color: #0073aa;
+
+.settings_page_pipedrive {
+    .wrap {
+        form {
+            #status {
+                margin: 10px auto;
+                border: 3px #000 solid;
+                color: #000;
+                padding: 10px;
+                text-align: center;
+
+                &.disabled {
+                    border-color: #f00;
+                    background-color: #fdd;
+                }
+
+                &.enabled {
+                    border-color: #0f0;
+                    background-color: #dfd;
+                }
+            }
+
+            #oauth_button,
+            #oauth_button a,
+            #oauth_button img {
+                outline: none !important;
+                box-shadow: unset !important;
+            }
+
+            #auth-oauth {
+                #oauth_button {
+                    img {
+                        width: 206px;
+                    }
+                }
+            }
+
+            .form-table {
+                tr {
+                    th {
+                        width: 15%;
+                        width: 15em;
+                        vertical-align: middle;
+
+                        &.valign-top {
+                            vertical-align: top;
+                        }
+                    }
+                }
+            }
+        }
+
+        #single-pages-section {
+            .pages {
+                display: flex;
+                flex-direction: row;
+
+                #filter-pages-button-all {
+                    margin-left: 1em;
+                }
+            }
+
+            table {
+                width: 100%;
+
+                tr {
+                    td.page-title {
+                        text-align: left;
+                        padding: 20px 10px 20px 0;
+                        width: 15%;
+                        width: 15em;
+
+                        .page-lang {
+                            color: #999;
+                        }
+                    }
+                }
+
+                thead th {
+                    text-align: left;
+                    padding: 0 !important;
+
+                    input {
+                        width: 25em !important;
+                        max-width: 100%;
+                    }
+                }
+
+                .pag {
+                    margin: 0 -2px;
+
+                    a {
+                        margin: 0 2px;
+                        display: inline-block;
+                        padding: 3px 10px;
+                        text-decoration: none;
+                        background-color: $link-color;
+                        color: #fff;
+                        border-radius: 5px;
+
+                        & .active, &:hover {
+                            background-color: lighten($link-color, 10%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

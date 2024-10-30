@@ -1,0 +1,109 @@
+# Copyright (C) 2022 Pipedrive
+# This file is distributed under the same license as the LeadBooster Chatbot by Pipedrive plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LeadBooster Chatbot by Pipedrive 1.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/trunk\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-01-05T11:27:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: leadbooster-by-pipedrive\n"
+
+#. Plugin Name of the plugin
+#: includes/admin.php:5
+#: includes/admin.php:19
+msgid "LeadBooster Chatbot by Pipedrive"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/leadbooster-by-pipedrive/"
+msgstr ""
+
+#. Description of the plugin
+msgid "LeadBooster Chatbot by Pipedrive is a chatbot plugin that captures visitors to your WordPress website and turns them from qualified leads into deals in your Pipedrive CRM account."
+msgstr ""
+
+#. Author of the plugin
+msgid "Pipedrive"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.pipedrive.com/?utm_source=leadbooster_wordpress_plugin&utm_medium=growth"
+msgstr ""
+
+#: includes/admin.php:6
+#: includes/admin.php:20
+msgid "LeadBooster"
+msgstr ""
+
+#: includes/admin.php:58
+msgid "Basic options"
+msgstr ""
+
+#: includes/admin.php:60
+msgid "Delete settings from the database"
+msgstr ""
+
+#: includes/admin.php:64
+#: includes/admin.php:68
+msgid "is currently"
+msgstr ""
+
+#: includes/admin.php:64
+msgid "disabled"
+msgstr ""
+
+#: includes/admin.php:68
+msgid "enabled"
+msgstr ""
+
+#: includes/admin.php:76
+msgid "is"
+msgstr ""
+
+#: includes/admin.php:84
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin.php:88
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin.php:96
+msgid "Show link to settings in admin bar menu"
+msgstr ""
+
+#: includes/admin.php:106
+msgid "Global Pipedrive JS code snippet:"
+msgstr ""
+
+#: includes/admin.php:109
+#: includes/admin.php:148
+#: includes/admin.php:150
+msgid "Insert the Pipedrive tag here"
+msgstr ""
+
+#: includes/admin.php:110
+msgid "Enter your Pipedrive JS code snippet above."
+msgstr ""
+
+#: includes/admin.php:111
+msgid "To find this snippet, log in to your account on <a href=\"https://www.pipedrive.com/?utm_source=leadbooster_wordpress_plugin&utm_medium=growth\" target=\"_blank\" rel=\"nofollow\">pipedrive.com</a>. In your company’s profile, go to <strong>Pipedrive Settings > LeadBooster</strong>. Then, go to the <strong>Playbook</strong> of your choice and you will find the WordPress snippet under <strong>Embed</strong>."
+msgstr ""
+
+#: includes/admin.php:116
+msgid "Options for specific pages"
+msgstr ""
+
+#: includes/admin.php:131
+msgid "Filter page list..."
+msgstr ""
+
+#: pipedrive.php:36
+msgid "Settings"
+msgstr ""
